@@ -75,6 +75,9 @@ WORKER_ENV = "production"
 CLOUD_PLATFORM = "cloudflare"
 CF_LOGPUSH_R2_PATH = "qlog/"
 
+[placement]
+mode = "smart"
+
 ##################
 #-----SECRETS----#
 ##################
